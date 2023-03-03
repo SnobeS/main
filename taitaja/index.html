@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Rengaskauppa</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="renkaat, auto, mopo, kumi, rengas, rengaskauppa">
+        <meta name="description" content="Halpa rengaskauppa">
+    </head>
+    <body>
+        <!-- navigation bar -->
+        <div class="navbar">
+            <nav>
+                <a href="#">Koti</a>
+                <a href="#">Tuotteet</a>
+                <a href="#">Ota yhteyttä</a>
+            </nav>
+        </div>
+        <div class="otsikko1">
+            <h1>Rengaskauppa</h1>
+        </div>
+        <!-- selections -->
+        <div class="yksi">
+            <!-- rengasmerkki-->
+            <div class="merkki">
+                <label for="merkki">Rengasmerkki</label>
+                <select id="merkki" name="merkki">
+                  <option value="yksi">Yksi</option>
+                  <option value="kaksi">Kaksi</option>
+                  <option value="kolme" selected>Kolme</option>
+                  <option value="neljä">Neljä</option>
+                </select>
+                </div>
+                <br>
+            <!-- rengaskoko -->
+            <div class="merkki">
+                <label for="koko">Rengaskoko</label>
+                <select id="koko" name="koko">
+                    <option value="yksi">Yksi</option>
+                    <option value="kaksi">Kaksi</option>
+                    <option value="kolme" selected>Kolme</option>
+                    <option value="neljä">Neljä</option>
+                </select>
+                </div>
+                <!-- delivery options-->
+            <p>Valitse toimitustapa</p>
+
+                <form>
+                 <div class="toimitus">
+                    <input type="radio" id="nouto" name="toimitus" value="NOUTO">
+                    <label for="nouto">Nouto liikkeestä</label><br>
+                    <input type="radio" id="mh" name="toimitus" value="MH">
+                    <label for="mh">Matkahuolto</label>
+                 </div>
+                </form>
+            <br>
+            <!-- contact information-->
+        <div class="nimi">
+            <p>Yhteystiedot</p>
+            <form action="/action_page.php">
+                <input type="text" id="fname" name="fname" placeholder="Etunimi"><br>
+                <br>
+                <input type="text" id="lname" name="lname" placeholder="Sukunimi"><br>
+                <br>
+                <input type="text" id="number" name="number" placeholder="Puhelin"><br>
+              </form>
+        </div>
+              <br>
+            <button type="button">SUBMIT</button>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
